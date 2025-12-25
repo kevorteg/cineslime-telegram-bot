@@ -1,39 +1,42 @@
 # 🎬 Cineslime Bot
 
-Un bot de Telegram avanzado para streaming de películas y series, con reproductor integrado (WebApp) y panel de administración.
+An advanced Telegram bot for movie and series streaming, featuring an integrated WebApp player and robust Admin dashboard.
 
-## 🚀 Características
-- **Streaming Directo**: Enlaces embed y torrents (YTS).
-- **Web App**: Reproductor limpio sin salir de Telegram.
-- **Admin Power**: Comandos para banear, anunciar y gestionar contenido.
-- **Base de Datos Local**: SQLite simple y rápido.
+## 🚀 Features
+- **Direct Streaming**: Smart embed links and Torrent search (YTS).
+- **Web App**: Clean player interface without leaving Telegram.
+- **Admin Power Pack**: Commands to `/ban`, `/broadcast`, and toggle `/maintenance`.
+- **Local Database**: Fast and simple SQLite storage.
 
-## 🛠️ Instalación
+## 🛠️ Installation
 
-1. Clona el repo:
+1. Clone the repo:
    ```bash
    git clone https://github.com/kevorteg/cineslime-telegram-bot.git
    cd cineslime-telegram-bot
    ```
-2. Instala dependencias:
+2. Install dependencies:
    ```bash
    npm install
    ```
-3. Configura tu entorno:
-   - Crea un archivo `.env` (basado en `.env.example`).
-   - Agrega tu `TELEGRAM_BOT_TOKEN`, `TMDB_API_KEY` y `ADMIN_USER_ID`.
-4. Inicia el bot:
+3. Setup Environment:
+   - Create a `.env` file (copy from `.env.example`).
+   - Add your `TELEGRAM_BOT_TOKEN`, `TMDB_API_KEY`, and `ADMIN_USER_ID`.
+4. Run the bot:
    ```bash
    npm start
    ```
 
-## 🤝 ¡Contribuye!
-Este proyecto es de código abierto y **buscamos tu ayuda** para hacerlo mejor.
-- ¿Sabes mejorar la búsqueda?
-- ¿Tienes ideas para nuevos comandos?
-- ¿Puedes optimizar el código?
+## 🤝 Contribute!
+This project is open-source and **we are looking for contributors**.
+- Can you improve the search logic?
+- Have ideas for new commands?
+- Want to optimize the database?
 
-¡Haz un **Fork** y manda tu **Pull Request**! Toda ayuda es bienvenida. 💡
+**Fork** the repo and send your **Pull Request**! All help is welcome. 💡
+
+## 📜 License
+This project is licensed under the [MIT License](LICENSE).
 
 ---
-*Hecho con ❤️ y Node.js*
+*Made with ❤️ and Node.js*
