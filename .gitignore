@@ -1,0 +1,14 @@
+# Node.js
+node_modules/
+npm-debug.log
+
+# Environment Variables (SECRETS - DO NOT UPLOAD)
+.env
+
+# Local Database
+*.db
+*.sqlite
+
+# OS specific
+.DS_Store
+Thumbs.db
